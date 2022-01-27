@@ -1,5 +1,8 @@
 git-Commands:
-- Der Befehl git --version in der PowerShell oder im Terminal zeigt die aktuelle Git Version an.
-- Der Befehl git config --list liefert eine Liste mit allen Werten in der Config.
-- Der Befehl git config --global user.name "Oliver Theisen" setzt den Namen des Benutzters fest.
-- Der Befehl git config --global user.email olivertheisen@gmail.com setzt die E-Mail Adresse des Beutzters fest.
+- git --version: zeigt die aktuelle Git Version an.
+- git config --list: liefert eine Liste mit allen Werten in der Config.
+- git config --global user.name "Oliver Theisen": setzt den Namen des Benutzters fest.
+- git config --global user.email olivertheisen@gmail.com: setzt die E-Mail Adresse des Beutzters fest.
+- git status: zeigt den Status der Staging Area an.  
+- git add: Fügt Änderungen im Arbeitsbereich der Staging Area zu
+- git commit -m "Hello": legt einen neuen Snapshot aus der Stageing Area im Repository an.
